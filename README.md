@@ -8,7 +8,7 @@ In this work, we design a novel data augmentation strategy called "Universal Ada
 given a pre-defined set of DA operations, we randomly decide types and magnitudes of DA operations for every data batch during training, and adaptively update DA's parameters along the gradient direction of the loss concerning DA's parameters. 
 In this way, UADA can increase the training loss of the target networks, and the target networks would learn features from harder samples to improve the generalization.
 
-<img src="./figure/framework.pdf" width="900"/>
+<img src="./figure/framework.png" width="900"/>
 
 [paper link](https://arxiv.org/abs/2207.06658)
 
