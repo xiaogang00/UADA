@@ -1,6 +1,6 @@
 # Universal Adaptive Data Augmentation
 
-This is a pytorch project for the paper [**Universal Adaptive Data Augmentation**] by Xiaogang Xu, Hengshuang Zhao, and Philip Torr.
+This is a pytorch project for the paper [**Universal Adaptive Data Augmentation**] by Xiaogang Xu and Hengshuang Zhao in IJCAI2023.
 
 ## Introduction
 Existing automatic data augmentation (DA) methods either ignore updating DA's parameters according to the target model's state during training or adopt update strategies that are not effective enough.
@@ -97,11 +97,11 @@ During the training, you can also use --epoch_resume for training resume.
 If you find the project useful, please cite:
 
 ```
-@article{xu2022uada,
+@inproceedings{xu2023uada,
   title={Universal Adaptive Data Augmentation},
   author={Xiaogang Xu, Hengshuang Zhao, and Philip Torr},
-  journal={arxiv},
-  year={2022}
+  booktitle={IJCAI},
+  year={2023}
 }
 ```
 
